@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Pontos Culturais da Cidade de Campinas/SP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/carrosel.js"></script>
+    <script src="scripts/menulateral.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.21.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.21.0/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+    <div class="container-pai">
+        <div class="container-filho">
+            <div class="container-menu-lateral" id="sideBar">
+
+            </div>
+            <div class="container-body">
+                <div class="container-header">
+                    Home
+                </div>
+                <div class="container-carrosel">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-wrap="true">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="imagem-carrosel" src="styles/assets/parqportugal.png" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Lagoa do Taquaral</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="imagem-carrosel" src="styles/assets/catedral.jpeg" alt="Second slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Catedral</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="imagem-carrosel" src="styles/assets/castelo.png" alt="Third slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Castelo</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="imagem-carrosel" src="styles/assets/escoladecadetes.jpeg" alt="Four slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Escola de Cadetes</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="imagem-carrosel" src="styles/assets/estacaocultura.jpeg" alt="Five slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Estação Cultura</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="imagem-carrosel" src="styles/assets/jyclub.jpeg" alt="Six slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Joquey Club</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="imagem-carrosel" src="styles/assets/matastagenebra.jpeg" alt="Seven slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Mata Sta Genebra</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="imagem-carrosel" src="styles/assets/mercadao.jpeg" alt="Eight slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Mercadão</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="imagem-carrosel" src="styles/assets/museuimagem.jpeg" alt="Nine slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Museu de Imagem e Som</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="imagem-carrosel" src="styles/assets/observ.jpeg" alt="Ten slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Observatório</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-footer">
+            Desenvolvido etc Licença 2020
+        </div>
+    </div>
+</body>
